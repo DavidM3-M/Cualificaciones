@@ -1,21 +1,24 @@
 # Cualificaciones
 Proyecto universitario 
 
-1. El modelo de person contiene todos los atributos a heredar: funciona en los 4 métodos indicados (GET, POST, PUT, DELETE)
-2. Para el ingreso de datos a modo de form en JSON, estos son los campos a llenar:
-   {
-    "nro_de_cedula": "",
-    "primer_nombre": "",
-    "segundo_nombre": "",
-    "primer_apellido": "",
-    "segundo_apellido": "",
-    "fecha_nacimiento": null,
-    "genero": "",
-    "pais_de_residencia": "",
-    "departamento_de_residencia": "",
-    "ciudad_de_residencia": "",
-    "barrio_de_residencia": "",
-    "direccion_de_residencia": ""
-}
-3. aún se trabaja en los demas modelos para realizar consultas que extraigan datos de otras tablas
+Introduciendo a lo presentado y cambios en tablas a la fecha 13/03/25, por lo que se actualiza el instructivo del programa
+en donde:
+
+Modelos: Representan las tablas de la base de datos.
+
+Serializers: Transforman los modelos a JSON para la API.
+
+Viewsets: Controlan la lógica CRUD.
+
+URLs: Definen los puntos de acceso a la API.
+
+Los endpoints principales serán:
+
+/api/person/
+/api/experiencias/
+/api/estudios/
+/api/producciones/
+/api/documentos/
+/api/documentos_soporte/
+/api/contactos/
 
